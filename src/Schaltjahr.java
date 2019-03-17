@@ -15,7 +15,7 @@ public class Schaltjahr {
             } else if (jahr%100 == 0) {
                 System.out.println("Das Jahr " + jahr + " ist kein Schaltjahr.");
             } else {
-                System.out.println("ERROR.");
+                System.out.println("Das Jahr " + jahr + " ist kein Schaltjahr.");
             }
         }
     }
